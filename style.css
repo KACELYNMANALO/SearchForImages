@@ -149,6 +149,10 @@ footer p{
         padding: 0 30px; 
         font-size: 16px; 
     }
+
+    ::placeholder {
+        font-size: 16px; 
+    }
 }
 
 @media (max-width: 768px) {
@@ -173,6 +177,10 @@ footer p{
 
     form button {
         padding: 0 20px; 
+        font-size: 14px; 
+    }
+
+    ::placeholder {
         font-size: 14px; 
     }
 }
@@ -204,15 +212,19 @@ footer p{
     }
 
     footer {
-        position: inherit; 
-        bottom: auto; 
+        position: fixed; 
+        bottom: 0; 
         width: 100%; 
         background-color: #F3F0CA; 
-        padding: 10px 0;
+        padding: 10px 0; 
     }
 
     footer p {
         font-size: 16px; 
         margin: 0; 
+    }
+
+    ::placeholder {
+        font-size: 12px; 
     }
 }
