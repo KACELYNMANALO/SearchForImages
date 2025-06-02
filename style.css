@@ -186,10 +186,17 @@ footer p{
 }
 
 @media (max-width: 480px) {
+    body {
+        min-height: 100vh; 
+        display: flex;
+        flex-direction: column; 
+    }
+
     #search-result {
         grid-template-columns: 1fr;
         grid-gap: 15px;
         margin: 20px auto; 
+        flex-grow: 1; 
     }
 
     .i, .m, .a, .g, .e, .s {
@@ -213,12 +220,11 @@ footer p{
     }
 
     footer {
-        position: relative; 
-        bottom: auto; 
+        position: absolute; 
+        bottom: 0; 
         width: 100%; 
         background-color: #F3F0CA; 
         padding: 10px 0; 
-        margin-top: 20px; 
     }
 
     footer p {
