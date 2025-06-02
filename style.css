@@ -123,3 +123,57 @@ footer p{
     object-fit: cover;
     border-radius: 5px;
 }
+
+@media (max-width: 1200px) {
+    #search-result {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    #search-result {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+    }
+
+    form {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    form input {
+        font-size: 16px;
+        padding: 0 20px;
+    }
+
+    form button {
+        padding: 0 30px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    #search-result {
+        grid-template-columns: 1fr;
+        grid-gap: 15px;
+    }
+
+    form {
+        height: 40px;
+    }
+
+    form input {
+        font-size: 14px;
+        padding: 0 15px;
+    }
+
+    form button {
+        padding: 0 20px;
+        font-size: 14px;
+    }
+
+    footer p {
+        font-size: 16px;
+    }
+}
