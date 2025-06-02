@@ -203,7 +203,16 @@ footer p{
         font-size: 12px; 
     }
 
+    footer {
+        position: fixed; 
+        bottom: 0; 
+        width: 100%; 
+        background-color: #F3F0CA; 
+        padding: 10px 0; 
+    }
+
     footer p {
-        font-size: 16px;
+        font-size: 16px; 
+        margin: 0; 
     }
 }
