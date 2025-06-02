@@ -133,11 +133,21 @@ footer p{
     }
 
     .i, .m, .a, .g, .e, .s {
-        font-size: 120px; /* Reduce font size for medium screens */
+        font-size: 120px; 
     }
 
     form {
-        width: 80%; /* Adjust width of the search bar */
+        width: 80%; 
+    }
+
+    form input {
+        font-size: 16px; 
+        padding: 0 20px; 
+    }
+
+    form button {
+        padding: 0 30px; 
+        font-size: 16px; 
     }
 }
 
@@ -148,22 +158,22 @@ footer p{
     }
 
     .i, .m, .a, .g, .e, .s {
-        font-size: 100px; /* Reduce font size for tablets */
+        font-size: 100px; 
     }
 
     form {
-        width: 100%; /* Make the search bar full width */
-        max-width: 400px; /* Limit maximum width */
+        width: 100%; 
+        max-width: 400px; 
     }
 
     form input {
-        font-size: 16px; /* Adjust font size */
-        padding: 0 20px; /* Adjust padding */
+        font-size: 14px; 
+        padding: 0 15px; 
     }
 
     form button {
-        padding: 0 30px; /* Adjust button padding */
-        font-size: 16px; /* Adjust button font size */
+        padding: 0 20px; 
+        font-size: 14px; 
     }
 }
 
@@ -174,21 +184,21 @@ footer p{
     }
 
     .i, .m, .a, .g, .e, .s {
-        font-size: 80px; /* Reduce font size for mobile devices */
+        font-size: 80px; 
     }
 
     form {
-        height: 40px; /* Reduce height of the search bar */
+        height: 40px;
     }
 
     form input {
-        font-size: 14px; /* Adjust font size */
-        padding: 0 15px; /* Adjust padding */
+        font-size: 12px; 
+        padding: 0 10px; 
     }
 
     form button {
-        padding: 0 20px; /* Adjust button padding */
-        font-size: 14px; /* Adjust button font size */
+        padding: 0 15px; 
+        font-size: 12px; 
     }
 
     footer p {
