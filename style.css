@@ -220,6 +220,14 @@ footer p{
         padding: 10px 0; 
     }
 
+    footer.no-results {
+        position: fixed; 
+        bottom: 0; 
+        width: 100%; 
+        background-color: #F3F0CA; 
+        padding: 10px 0; 
+    }
+
     footer p {
         font-size: 16px; 
         margin: 0; 
