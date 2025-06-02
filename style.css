@@ -124,10 +124,20 @@ footer p{
     border-radius: 5px;
 }
 
+
+
 @media (max-width: 1200px) {
     #search-result {
         grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 30px;
+    }
+
+    .i, .m, .a, .g, .e, .s {
+        font-size: 120px; /* Reduce font size for medium screens */
+    }
+
+    form {
+        width: 80%; /* Adjust width of the search bar */
     }
 }
 
@@ -137,19 +147,23 @@ footer p{
         grid-gap: 20px;
     }
 
+    .i, .m, .a, .g, .e, .s {
+        font-size: 100px; /* Reduce font size for tablets */
+    }
+
     form {
-        width: 100%;
-        max-width: 400px;
+        width: 100%; /* Make the search bar full width */
+        max-width: 400px; /* Limit maximum width */
     }
 
     form input {
-        font-size: 16px;
-        padding: 0 20px;
+        font-size: 16px; /* Adjust font size */
+        padding: 0 20px; /* Adjust padding */
     }
 
     form button {
-        padding: 0 30px;
-        font-size: 16px;
+        padding: 0 30px; /* Adjust button padding */
+        font-size: 16px; /* Adjust button font size */
     }
 }
 
@@ -159,18 +173,22 @@ footer p{
         grid-gap: 15px;
     }
 
+    .i, .m, .a, .g, .e, .s {
+        font-size: 80px; /* Reduce font size for mobile devices */
+    }
+
     form {
-        height: 40px;
+        height: 40px; /* Reduce height of the search bar */
     }
 
     form input {
-        font-size: 14px;
-        padding: 0 15px;
+        font-size: 14px; /* Adjust font size */
+        padding: 0 15px; /* Adjust padding */
     }
 
     form button {
-        padding: 0 20px;
-        font-size: 14px;
+        padding: 0 20px; /* Adjust button padding */
+        font-size: 14px; /* Adjust button font size */
     }
 
     footer p {
