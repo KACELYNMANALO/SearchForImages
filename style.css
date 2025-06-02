@@ -220,7 +220,7 @@ footer p{
     }
 
     footer {
-        position: absolute; 
+        position: fixed; 
         bottom: 0; 
         width: 100%; 
         background-color: #F3F0CA; 
