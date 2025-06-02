@@ -189,6 +189,7 @@ footer p{
     #search-result {
         grid-template-columns: 1fr;
         grid-gap: 15px;
+        margin: 50px auto 20px; 
     }
 
     .i, .m, .a, .g, .e, .s {
@@ -212,8 +213,8 @@ footer p{
     }
 
     footer {
-        position: fixed; 
-        bottom: 0; 
+        position: inherit; 
+        bottom: auto; 
         width: 100%; 
         background-color: #F3F0CA; 
         padding: 10px 0; 
